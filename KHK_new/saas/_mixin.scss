@@ -1,0 +1,51 @@
+
+/********************* common code ***************/
+@mixin button {
+    line-height: 42px;
+    border-radius: 30px;
+    background: var(--main-color);
+    font-weight: 700;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+  }
+  @mixin buttonHover {
+    background: #333;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    
+  }
+  @mixin smallHr {
+    width: 25px;
+      display: block;
+      margin-block-start: 5px;
+      content: '';
+      height: 5px;
+      background-color:  var(--main-color);
+      z-index: 2;
+      position: relative;
+  }
+  @mixin heading1 {
+    color:var(--secondary-color);
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-block: 20px;
+  }
+  @mixin heading6 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-block: 15px;
+  }
+  @mixin heading5 {
+    color:var(--secondary-color);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-block: 15px;
+  }

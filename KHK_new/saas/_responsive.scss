@@ -1,0 +1,142 @@
+/*
+*
+* ==========================================
+*  Small devices (Mobile 576)
+* ==========================================
+*
+*/
+
+@media (max-width: 768px) {
+//   body {
+//     background-color: green;
+//   }
+/******* Header ********/
+.mark1:after {
+display: none;
+}
+a.nav-link:hover {
+  display: none !important;
+}
+/******* Home Page ********/
+  .video_title {
+    font-size: 24px;
+    margin-inline-end: 3rem;
+    padding:0px 8px;
+  }
+  .video_subtitle {
+    font-size: 15px !important;
+    margin-inline-end: 3rem;
+    padding:0px 8px;
+  }
+  .video-background-content {
+    padding: 0 !important;
+    margin-inline: 10px !important;
+  }
+  /***************** Sections ***************** */
+
+.ringaccess-content img {
+ float: none !important;
+}
+.lockslab-content img{
+  float: none !important;
+}
+.lockaccess-content  img{
+  float: none !important;
+}
+.homebox{
+  padding: 15px !important;
+}
+.homebox .slide-item__title{
+  font-size: 19px !important;
+}
+.textcontent ul li{
+  padding: 0 !important;
+}
+// About Page
+.image-block-row {
+    flex-direction: column;
+}
+#timeline{
+  width: 95vw !important;
+}
+#issues li{
+  width: 772px !important;
+}
+#issues{
+   position: relative;
+}
+// #issues li p {
+//   position: absolute;
+//   // width: 35%;
+//   // font-size: 12px;
+//   // margin-inline-start: 48%;
+// }
+
+}
+/*
+*
+* ==========================================
+*   Medium devices (tablets, 768px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 768px) and (max-width: 992px)
+ {
+  body {
+    background-color: pink;
+  }
+  
+/******* Home Page ********/
+.video_title {
+  font-size: 50px;
+}
+.video_subtitle {
+  font-size: 20px !important;
+ 
+}
+
+
+
+
+
+
+}
+/*
+*
+* ==========================================
+*  Large devices (desktops, 992px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px)
+ {
+  body {
+    background-color: blue;
+  }
+}
+/*
+*
+* ==========================================
+* X-Large devices (large desktops, 1200px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 1200px) and (max-width: 1400px) 
+{
+
+}
+/*
+*
+* ==========================================
+*  // XX-Large devices (larger desktops, 1400px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 1400px)
+ {
+
+}
